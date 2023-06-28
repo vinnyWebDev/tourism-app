@@ -14,7 +14,7 @@ function Navigation() {
                         <Nav className="me-auto">
                             <Nav.Link href="/">Home</Nav.Link>
                             <Nav.Link href="/destinations">Destinations</Nav.Link>
-                            <Nav.Link href="/weather">Weather</Nav.Link>
+                            <Nav.Link href="/Activities">Activities</Nav.Link>
                             <Nav.Link href="/contact">Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

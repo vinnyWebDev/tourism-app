@@ -6,17 +6,7 @@ import axios from "axios";
 
 function Home(){
 
-    const dublin = "dublin";
-    const [temp, setTemp] = useState("");
-
-    async function getWeather(){
-    let response = await axios.get("http://api.openweathermap.org/data/2.5/weather?mode=json&q="+dublin+"&appid=f27f5da1d06fab42171fafce4c6ec8f7");
-    console.log(response);
-    setTemp(response.data.main.temp)
-    console.log(temp);
-}
-
-getWeather()
+  
 
     return(
         <section className="bgimage" id="home">
