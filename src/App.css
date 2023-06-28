@@ -11,7 +11,7 @@
 /* text css above hero image*/
 .hero_title {
   font-size: 5.5rem;
-}
+}none
 .hero_desc {
   font-size: 2rem;
 }
@@ -36,8 +36,12 @@
 .destImg{
   width: 450px;
   height: auto;
+  display: block;
+  margin: auto;
 }
 
 .destHeadings{
+  font-family: 'Gloock', serif;
+  margin-top: 15px;
   text-align: center;
 }
