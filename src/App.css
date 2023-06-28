@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+
 /* home page hero background image */
 .bgimage {
   height:100vh;
-  background: url('images/hero.jpg');
+  background: url('./assets/images/hero.jpg');
   background-size:cover;
   position:relative;
 }
@@ -19,4 +22,22 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+/*Page Headers*/
+.pageHeader{
+  text-align: center;
+  font-size: 3rem;
+  margin: 30px;
+  font-family: 'Gloock', serif;
+}
+
+/*Destinations Page*/
+.destImg{
+  width: 450px;
+  height: auto;
+}
+
+.destHeadings{
+  text-align: center;
 }
