@@ -3,7 +3,7 @@ import dublin from '../assets/images/dublin.jpg';
 import cork from '../assets/images/cork.jpg';
 import { useState } from "react";
 import axios from "axios";
-import { Button } from "react-bootstrap";
+import Activity from "./Activity";
 
 function Activities() {
 
@@ -14,7 +14,7 @@ function Activities() {
         async function getActivities() {
             let response = await axios.get("https://failteireland.azure-api.net/opendata-api/v1/activities");
             setActivities(response.data.results);
-            console.log(activities);
+            console.log(activities)
             
         }
         getActivities();
@@ -28,7 +28,7 @@ function Activities() {
                 activities.map(function(i, index){
                     return(
                         <div>
-                            
+                            <li key={i}>{i.name}</li>
                         </div>
                     )
                 })
