@@ -4,7 +4,7 @@ function About() {
 
     return (
         <div>
-            <div className="container pt-4">
+            <div className="container pt-4 d-flex flex-column min-vh-100">
                 <h1 className="pageHeader">About</h1>
                 <div className="row mb-5">
                     <div className="col-lg border rounded m-3">
