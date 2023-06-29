@@ -15,7 +15,7 @@ function Activities() {
             let response = await axios.get("https://failteireland.azure-api.net/opendata-api/v1/activities");
             setActivities(response.data.results);
             console.log(activities)
-            
+
         }
         getActivities();
     }, [])
@@ -25,11 +25,20 @@ function Activities() {
         <div className="container pt-4">
             <h1 className="pageHeader">Activities</h1>
             {
-                activities.map(function(i, index){
-                    return(
-                        <div>
-                            <li key={i}>{i.name}</li>
+                activities.map(function (i, index) {
+                    return (
+
+                        <Activity name = {i.name} tel={i.telephone} url={i.url}/>
+                        /*
+                        <div className="row">
+                            <div className="col-lg">
+                                <li key={i}>{i.name}</li>
+                            </div>
+                            <div className="col-lg">
+                                <li key={i}>{i.telephone}</li>
+                            </div>
                         </div>
+                        */
                     )
                 })
             }
