@@ -6,9 +6,9 @@ function About() {
         <div>
             <div className="container pt-4">
                 <h1 className="pageHeader">About</h1>
-                <div className="row">
+                <div className="row mb-5">
                     <div className="col-lg border rounded m-3">
-                        <h3 className="destHeadings">This Website</h3>
+                        <h3 className="destHeadings">About Tour Ireland</h3>
                         <p>Welcome to our Irish Tourism website, where we invite you to explore the enchanting wonders of the Emerald Isle.
                             Nestled on the western fringes of Europe, Ireland is a land steeped in ancient history, vibrant culture, and breathtaking landscapes.<br/><br/>
 
@@ -20,7 +20,7 @@ function About() {
                             literature that form the soul of this captivating land.<br/><br/>
 
                             Indulge your taste buds with traditional Irish cuisine and sample the finest whiskey and Guinness in cozy pubs, where the warm atmosphere and lively conversations will make you feel right at home. 
-                            Join in the festivities of colorful festivals and events that celebrate Ireland's unique traditions and immerse yourself in the vibrant cultural tapestry of this magical country.<br/><br/>
+                            Join in the festivities of colorful festivals and events that celebrate Ireland's unique traditions and immerse yourself in the vibrant cultural tapestry of this magical country.<br/><br/>    
 
                             Whether you're exploring bustling cities like Dublin and Galway or venturing off the beaten path to uncover hidden gems,
                             Ireland promises a journey that will touch your heart and leave lasting memories. So, pack your bags, follow the winding roads, 

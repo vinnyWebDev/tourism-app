@@ -36,7 +36,7 @@ function Destinations() {
 
             </div>
 
-            <div class="row">
+            <div class="row mb-5">
                 <div class="col-lg border rounded m-3">
                     <h3 className="mb-4 destHeadings">Powerscourt Estate</h3>
                     <img src={powerscourt} className="destImg img-fluid mb-3 rounded" alt="A photo of blarney castle"></img>

@@ -22,23 +22,14 @@ function Activities() {
 
 
     return (
-        <div className="container pt-4">
+        <div className="container pt-4 mb-5">
             <h1 className="pageHeader">Activities</h1>
             {
                 activities.map(function (i, index) {
                     return (
 
                         <Activity name = {i.name} tel={i.telephone} url={i.url}/>
-                        /*
-                        <div className="row">
-                            <div className="col-lg">
-                                <li key={i}>{i.name}</li>
-                            </div>
-                            <div className="col-lg">
-                                <li key={i}>{i.telephone}</li>
-                            </div>
-                        </div>
-                        */
+                
                     )
                 })
             }

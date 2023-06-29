@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
 
+/*Brand in Nav*/
+.navBrand{
+  font-family: 'Gloock', serif;
+}
 
 /* home page hero background image */
 .bgimage {
@@ -11,7 +15,10 @@
 /* text css above hero image*/
 .hero_title {
   font-size: 5.5rem;
-}none
+  font-family: 'Gloock', serif;
+
+}
+
 .hero_desc {
   font-size: 2rem;
 }
